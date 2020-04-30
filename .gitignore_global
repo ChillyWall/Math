@@ -1,0 +1,6 @@
+<spanstyle="font-size:small;">
+.vscode/
+*.class
+_pycatch_
+
+</span>
