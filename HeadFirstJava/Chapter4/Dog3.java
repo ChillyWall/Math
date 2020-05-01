@@ -1,6 +1,4 @@
-package HeadFirstJava.Chapter4;
-
-class Dog3 {
+public class Dog3 {
     int size;
 
     int getSize() {

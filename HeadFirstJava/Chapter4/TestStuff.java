@@ -1,5 +1,3 @@
-package HeadFirstJava.Chapter4;
-
 public class TestStuff {
     public static void main (String[] args) {
         TestStuff t = new TestStuff();

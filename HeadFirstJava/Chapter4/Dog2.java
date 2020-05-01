@@ -1,5 +1,3 @@
-package HeadFirstJava.Chapter4;
-
 class Dog2 {
 
     int size;

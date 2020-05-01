@@ -1,5 +1,3 @@
-package HeadFirstJava.Chapter4;
-
 public class GoodDog {
 
     private int size;

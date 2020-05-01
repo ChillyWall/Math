@@ -1,5 +1,3 @@
-package HeadFirstJava.Chapter4;
-
 public class EolectricGuitar {
     
     String brand;
