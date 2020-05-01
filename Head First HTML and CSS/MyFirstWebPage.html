@@ -10,6 +10,9 @@
                 margin-right: 20%;
                 background-image:url(http://img.pconline.com.cn/images/upload/upc/tx/wallpaper/1209/13/c0/13827288_1347505315557.jpg)
             }
+            h1 {
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -35,6 +38,40 @@
 			规律，我是用的这些编程软件一直在朝简洁的方向前进，一开始是JetBrains的Pycharm，后来要写java就换成了IDEA + 插件，发现太卡了，电脑配置真的不行，
 			后来就用上了VS Code，之后就上了NotePad++，估计到最后我可能就直接连编程软件都懒得要了，直接NotePad走起，完全不用配置，一切靠手撸，但是我觉得
 			我才不会这么傻，语法高亮和代码补全是写程序的人最后的底线，绝对不能抛弃。
-		</p>
+        </p>
+        <p>
+            y<sub>1</sub> = x<sup>2</sup> </br>
+            y<sub>2</sub> = x<sup>3</sup>
+        </p>
+        <pre style="color:white;">
+package Exercise4;
+
+public class Mix4 {
+    int counter = 0;
+    public static void main(String[] args) {
+        int count = 0;
+        Mix4 [] m4a = new Mix4[20];
+        int x = 0;
+        while (x < 19) {
+            m4a[x] = new Mix4();
+            m4a[x].counter = m4a[x].counter + 1;
+            count = count + 1;
+            count = count + m4a[x].maybeNew(x);
+            x = x + 1;
+        }
+        System.out.println(count + " " + m4a[1].counter);
+    }
+
+    public int maybeNew(int index) {
+        if (index < 1) {
+            Mix4 m4 = new Mix4();
+            m4.counter = m4.counter + 1;
+            return 1;
+        }
+        return 0;
+    }
+}
+</pre>
     </body>
+    
 </html>
