@@ -1,4 +1,4 @@
-package HeadFirstJava.Chapter3;
+package JavaProjects.HeadFirstJava.Chapter3;
 
 class Dog {
     String name;

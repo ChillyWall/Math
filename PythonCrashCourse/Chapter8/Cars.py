@@ -8,4 +8,5 @@ def make_car(company, name, **car_information):
 
 
 car = make_car('subaru', 'outback', color='blue', tow_package=True)
+
 print(car)

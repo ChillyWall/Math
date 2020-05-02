@@ -1,4 +1,4 @@
-package HeadFirstJava.Chapter2;
+package JavaProjects.HeadFirstJava.Chapter2;
 
 class Movie {
     String title;

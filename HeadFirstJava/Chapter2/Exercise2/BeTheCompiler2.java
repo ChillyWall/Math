@@ -1,4 +1,4 @@
-package HeadFirstJava.Chapter2.Exercise2;
+package JavaProjects.HeadFirstJava.Chapter2.Exercise2;
 
 class TapeDeck {
     boolean canRecord = false;

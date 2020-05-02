@@ -1,4 +1,4 @@
-package HeadFirstJava.Chapter2.GuessingGame;
+package JavaProjects.HeadFirstJava.Chapter2.GuessingGame;
 
 public class GuessGame {
     Player p1;

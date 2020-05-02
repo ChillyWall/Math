@@ -7,3 +7,5 @@ _pycache_/
 out/
 src/
 *.exe
+CMakeLists.txt
+cmake-build-debug/

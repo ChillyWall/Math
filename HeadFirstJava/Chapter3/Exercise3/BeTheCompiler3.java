@@ -1,4 +1,4 @@
-package HeadFirstJava.Chapter3.Exercise3;
+package JavaProjects.HeadFirstJava.Chapter3.Exercise3;
 
 class Books {
     String title;

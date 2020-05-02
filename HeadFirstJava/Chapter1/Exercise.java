@@ -1,4 +1,4 @@
-package HeadFirstJava.Chapter1;
+package JavaProjects.HeadFirstJava.Chapter1;
 
 class shuffle1 {
     public static void main (String[] args) {

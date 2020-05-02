@@ -1,4 +1,4 @@
-package HeadFirstJava.Chapter1;
+package JavaProjects.HeadFirstJava.Chapter1;
 
 public class Loopy {
     public static void main (String[] args) {
