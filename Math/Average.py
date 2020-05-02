@@ -1,6 +1,6 @@
 class Average:
     @classmethod
-    def __init__(cls, numbers, weight=[], completed=False):
+    def __init__(cls, numbers, weight=(), completed=False):
         cls.numbers = numbers
         cls.weight = weight
         cls.completed = completed
@@ -15,7 +15,6 @@ class Average:
         cls.public = cls.final['public']
         cls.variance = cls.final['variance']
 
-    
     @classmethod
     def get_weighted_average(cls, weight, numbers):
         """
@@ -30,20 +29,17 @@ class Average:
             value += numbers[index] * weight[index]
         return value / sum(weight)
 
-
     @classmethod
     def get_group_value(cls, *limits):
         """
         计算小组的组中值
-        :param limits: 小组的两边数，每一对为一个列表
+        :param limits: 小组的两边数，每一对在一个列表
         :return: 组中值（列表）
         """
         weight = []
         for limit in limits:
-            weight.append(Average.
-            average(limit))
+            weight.append(Average.get_average(limit))
         return weight
-
 
     @classmethod
     def get_average(cls, numbers):
@@ -53,7 +49,6 @@ class Average:
         :return: 平均数（浮点数）
         """
         return sum(numbers) / len(numbers)
-
 
     @classmethod
     def get_median(cls, numbers):
@@ -74,7 +69,6 @@ class Average:
         else:
             index = (num + 1) // 2 - 1
             return numbers_used[index]
-
 
     @classmethod
     def get_public(cls, numbers):
@@ -104,7 +98,6 @@ class Average:
 
         return public
 
-
     @classmethod
     def get_variance(cls, numbers):
         """
@@ -123,7 +116,6 @@ class Average:
         variance = numerator / n
         return variance
 
-
     @classmethod
     def complete(cls, numbers, weight):
         """
@@ -141,9 +133,8 @@ class Average:
                 times += 1
         return completed_numbers
 
-
     @classmethod
-    def get_all(cls, numbers, weight=[], completed=False):
+    def get_all(cls, numbers, weight=(), completed=False):
         """
         计算数据的平均数、中位数、众数、方差
         :param numbers: 数据
@@ -180,7 +171,6 @@ class Average:
         all_numbers['variance'] = variance
 
         return all_numbers
-
 
     @classmethod
     def print_all(cls, all_numbers):

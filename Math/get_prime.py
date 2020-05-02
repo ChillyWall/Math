@@ -1,9 +1,12 @@
-def get_prime(a, b):
-
-    """用来找到数字范围内的的质数
-    原理:将范围内所有是2,3,5,7的倍数的数全部去掉,剩下的即是质数"""
-
-    numbers = list(range(a, b + 1))
+def get_prime(start, end):
+    """
+    寻找范围内的质数，包括前一个和后一个
+    原理：不是2、3、5、7的倍数的数都是质数
+    :param start: 起始
+    :param end: 结束
+    :return: 一个包含范围内所有质数和非质数以及各自的数字及数量的字典
+    """
+    numbers = list(range(start, end + 1))
     prime = []
     not_prime = []
 
@@ -32,7 +35,7 @@ def get_prime(a, b):
             'number': len(prime),
             'numbers': prime
         },
-        'not prime':{
+        'not prime': {
             'number': len(not_prime),
             'numbers': not_prime
         }
