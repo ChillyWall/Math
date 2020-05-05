@@ -1,4 +1,5 @@
 package Chapter5;
+import java.io.*;
 
 /* prepcode
 DECLARE an int array to hold the location cells. Call it locationCells.
@@ -39,6 +40,11 @@ class SimpleDotComTestDrive {
 
         String userGuess = "2";
         String result = dot.checkYourselfIf(userGuess);
+        String testResult = "failed";
+        if (result.equals("hit") ) {
+            testResult = "passed";
+        }
+        System.out.println(testResult);
     }
 }
 
@@ -65,6 +71,70 @@ class SimpleDotCom {
         if (numOfHits == locationCells.length) {
             result = "kill";
         }
+        System.out.println(result);
         return result;
     } // close method
 } // close class
+
+/*
+Method public static void main (String[] args)
+    DECLARE an int variable to hold the number of Guesses called numOfGuess
+    Make the single SimpleDotCom Object
+    COMPUTE an random number between 1 and 4 that will be the starting location
+    MAKE an int array with 3 ints using the randomly-generated number, that number incremented by 1, and that number incremented by 2 (example: 3,4,5)
+    INVOKE the setLocationCells() method on the SimpleDotCom instance
+    DECLARE a boolean variable representing the stage of the game called isAlive, SET it to true
+
+    WHILE the dot is alive now
+        GET the input of user
+        // CHECK the result
+        INVOKE checkYourselfIf() method in SimpleDotCom instance
+        INCREMENT numOfGuesses
+        IF result == "kill"
+            SET isAlive to false
+            PRINT the numOfGuess
+ */
+class SimpleDotComGame {
+    public static void main (String[] args) {
+        int numOfGuesses = 0;
+        GameHelper helper = new GameHelper();
+
+        SimpleDotCom theDotCom = new SimpleDotCom();
+        int randomNum = (int) (Math.random() * 5);
+
+        int[] locations = {randomNum, randomNum + 1, randomNum + 2};
+        theDotCom.setLocationCells(locations);
+        boolean isAlive = true;
+
+        while (isAlive) {
+            String guess = helper.getUserInput("enter a num");
+            String result;
+            if (guess == null) {
+                continue;
+            } else {
+                result = theDotCom.checkYourselfIf(guess);
+                numOfGuesses++;
+            }
+
+            if (result.equals("kill")) {
+                isAlive = false;
+                System.out.println("You took " + numOfGuesses + " guesses");
+            } // close if
+        } // close while
+    } // close main
+}
+
+class GameHelper {
+    public String getUserInput(String prompt) {
+        String inputLine = null;
+        System.out.print(prompt + " ");
+        try {
+            BufferedReader is = new BufferedReader(new InputStreamReader(System.in));
+            inputLine = is.readLine();
+            if (inputLine.length() == 0) return null;
+        } catch (IOException e) {
+            System.out.println("IOException: " + e);
+        }
+        return inputLine;
+    }
+}
