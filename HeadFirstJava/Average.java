@@ -1,6 +1,8 @@
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Average {
     int[] numbers;
@@ -41,9 +43,6 @@ public class Average {
 
     int getWeightedAverage() {
         return weightedAverage;
-    }
-    void setPublicNum(int[] numbers) {
-
     }
 }
 
