@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Administrator/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/Users/Administrator/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/Users/Administrator/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Administrator\Projects\HeadFirstC
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Administrator/Projects/HeadfirstC/cmake-build-debug
