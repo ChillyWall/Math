@@ -1,7 +1,6 @@
 // myfirst.cpp == displays a message
 
 #include <iostream>                             // a PREPROCESSOR directive
-
 int main()                                      // function header
 {                                               // start of function body
     using namespace std;                        // make definitions visible
@@ -11,12 +10,3 @@ int main()                                      // function header
     cin.get();
     return 0;                                   // terminate main()
 }                                               // end of function body
-
-int printhello()
-{
-	using namespace std;
-	cout << "Come up and C++ me some time.";
-	cout << endl;
-	cout << "You won't regret it!" << endl;
-	return 0;
-}
