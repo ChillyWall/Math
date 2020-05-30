@@ -1,12 +1,13 @@
-package JavaProjects.HeadFirstJava.Chapter3.Exercise3;
+package Chapter3.Exercise3;
 
 class Triangle {
     double area;
     int height;
     int length;
+
     public static void main(String[] args) {
         int x = 0;
-        Triangle [] ta = new Triangle[4];
+        Triangle[] ta = new Triangle[4];
         while (x < 4) {
             ta[x] = new Triangle();
             ta[x].height = (x + 1) * 2;
@@ -23,6 +24,7 @@ class Triangle {
         System.out.print("y = " + y);
         System.out.println(", t5 area = " + t5.area);
     }
+
     void setArea() {
         area = (height * length) / 2;
     }

@@ -1,10 +1,11 @@
-package Exercise4;
+package Chapter4.Exercise4;
 
 public class Mix4 {
     int counter = 0;
+
     public static void main(String[] args) {
         int count = 0;
-        Mix4 [] m4a = new Mix4[20];
+        Mix4[] m4a = new Mix4[20];
         int x = 0;
         while (x < 19) {
             m4a[x] = new Mix4();

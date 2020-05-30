@@ -1,4 +1,4 @@
-package Exercise4;
+package Chapter4.Exercise4;
 
 class XCopy {
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ class XCopy {
         int y = x.go(orig);
         System.out.println(orig + " " + y);
     }
+
     int go(int arg) {
         arg = arg * 2;
         return arg;

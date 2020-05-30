@@ -1,9 +1,10 @@
-package JavaProjects.HeadFirstJava.Chapter2.GuessingGame;
+package Chapter2.GuessingGame;
 
 public class GuessGame {
     Player p1;
     Player p2;
     Player p3;
+
     public void startGame() {
         p1 = new Player();
         p2 = new Player();
@@ -52,10 +53,10 @@ public class GuessGame {
                 System.out.println("Plyer two got it right? " + p2isRight);
                 System.out.println("Player three got it right? " + p3isRight);
                 System.out.println("Game is over.");
-                break; //game over, so break out of the loop
+                break; // game over, so break out of the loop
 
             } else {
-                //we must keep going because nobody got it right!
+                // we must keep going because nobody got it right!
                 System.out.println("Players will have to try again.");
             } // end if/else
         } // end while loop

@@ -1,7 +1,7 @@
-package JavaProjects.HeadFirstJava.Chapter2.GuessingGame;
+package Chapter2.GuessingGame;
 
 public class GuessLauncher {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         GuessGame game = new GuessGame();
         game.startGame();
     }

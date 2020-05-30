@@ -1,8 +1,9 @@
-package JavaProjects.HeadFirstJava.Chapter3;
+package Chapter3;
 
 class Dog {
     String name;
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
         // make a Dog object and access it
         Dog dog1 = new Dog();
         dog1.bark();
@@ -35,6 +36,10 @@ class Dog {
     public void bark() {
         System.out.println(name + " says ruff!");
     }
-    public void eat() { }
-    public void chaseCat() { }
+
+    public void eat() {
+    }
+
+    public void chaseCat() {
+    }
 }

@@ -1,4 +1,4 @@
-package JavaProjects.HeadFirstJava.Chapter2.Exercise2;
+package Chapter2.Exercise2;
 
 class EchoTestDrive {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ class EchoTestDrive {
         Echo e2 = new Echo();
 
         int x = 0;
-        while(x < 4) {
+        while (x < 4) {
 
             e1.hello();
             e1.count = e1.count + 1;
@@ -25,6 +25,7 @@ class EchoTestDrive {
 
 class Echo {
     int count = 0;
+
     void hello() {
         System.out.println("helloooo...");
     }

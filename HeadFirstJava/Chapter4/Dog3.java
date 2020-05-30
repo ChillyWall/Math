@@ -1,9 +1,12 @@
+package Chapter4;
+
 public class Dog3 {
     int size;
 
     int getSize() {
         return size;
     }
+
     void setSize(int s) {
         size = s;
     }

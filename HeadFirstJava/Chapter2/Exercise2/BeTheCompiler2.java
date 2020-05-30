@@ -1,4 +1,4 @@
-package JavaProjects.HeadFirstJava.Chapter2.Exercise2;
+package Chapter2.Exercise2;
 
 class TapeDeck {
     boolean canRecord = false;
@@ -13,7 +13,7 @@ class TapeDeck {
 }
 
 class TapeDeckTestDrive {
-    
+
     public static void main(String[] args) {
 
         TapeDeck t = new TapeDeck();

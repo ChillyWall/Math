@@ -1,4 +1,4 @@
-package Exercise4;
+package Chapter4.Exercise4;
 
 public class Puzzle4 {
     public static void main(String[] args) {
@@ -20,8 +20,10 @@ public class Puzzle4 {
         System.out.println("result " + result);
     }
 }
+
 class Puzzle4b {
     int ivar;
+
     public int doStuff(int factor) {
         if (ivar > 100) {
             return ivar * factor;

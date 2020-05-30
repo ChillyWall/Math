@@ -1,4 +1,4 @@
-package JavaProjects.HeadFirstJava.Chapter2;
+package Chapter2;
 
 class Movie {
     String title;
@@ -9,13 +9,14 @@ class Movie {
         System.out.println("Playing the movie");
     }
 }
+
 public class MovieTestDrive {
     public static void main(String[] args) {
         Movie one = new Movie();
         one.title = "Gone with the Stock";
         one.genre = "Tragic";
         one.rating = -2;
-        
+
         Movie two = new Movie();
         two.title = "Lost in Cubicle Space";
         two.genre = "Comedy";

@@ -1,7 +1,7 @@
-package JavaProjects.HeadFirstJava.Chapter1;
+package Chapter1;
 
 class shuffle1 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int x = 3;
         while (x > 0) {
 
@@ -20,10 +20,9 @@ class shuffle1 {
                 System.out.print("d");
                 x = x - 1;
             }
-        } //end the while loop
-    } //end the main
-} //end the class
-
+        } // end the while loop
+    } // end the main
+} // end the class
 
 class Exercise1bA {
     public static void main(String[] args) {
@@ -37,7 +36,6 @@ class Exercise1bA {
     }
 }
 
-
 class Exercise1bB {
     public static void main(String[] args) {
         int x = 5;
@@ -48,7 +46,6 @@ class Exercise1bB {
     }
 }
 
-
 class Exercise1bC {
     public static void main(String[] args) {
         int x = 5;
@@ -58,7 +55,6 @@ class Exercise1bC {
         }
     }
 }
-
 
 class Exercise1c {
     public static void main(String[] args) {
@@ -72,13 +68,12 @@ class Exercise1c {
     }
 }
 
-
 class PoolPuzzleOne {
     public static void main(String[] args) {
         int x = 0;
-        while(x < 4) {
+        while (x < 4) {
             System.out.print("a");
-            if ( x < 1) {
+            if (x < 1) {
                 System.out.print(" ");
             }
             System.out.print("n");

@@ -1,7 +1,7 @@
-package JavaProjects.HeadFirstJava.Chapter1;
+package Chapter1;
 
 public class Loopy {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int x = 1;
         System.out.println("Before the loop");
         while (x < 4) {

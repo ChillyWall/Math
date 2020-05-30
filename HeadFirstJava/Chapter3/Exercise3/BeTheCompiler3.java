@@ -1,4 +1,4 @@
-package JavaProjects.HeadFirstJava.Chapter3.Exercise3;
+package Chapter3.Exercise3;
 
 class Books {
     String title;
@@ -6,7 +6,7 @@ class Books {
 }
 
 class BooksTestDrive {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         Books[] myBooks = new Books[3];
         int x = 0;
@@ -36,7 +36,7 @@ class Hobbits {
     String name;
 
     public static void main(String[] args) {
-        
+
         Hobbits[] h = new Hobbits[3];
         int z = -1;
 

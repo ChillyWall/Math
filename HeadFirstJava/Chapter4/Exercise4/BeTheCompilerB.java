@@ -1,4 +1,4 @@
-package Exercise4;
+package Chapter4.Exercise4;
 
 class Clock {
     String time;

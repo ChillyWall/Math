@@ -1,12 +1,12 @@
-package JavaProjects.HeadFirstJava.Chapter1;
+package Chapter1;
 
 public class MyFirstApp {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int x = 4; // assign 4 to x
 
         while (x > 3) {
-            //loop code will run because
-            //x is greater than 3
+            // loop code will run because
+            // x is greater than 3
             x = x - 1; // or we'd loop forever
         }
         int z = 27; //
@@ -17,8 +17,9 @@ public class MyFirstApp {
     }
 
 }
+
 class IfTest {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int x = 3;
         if (x == 3) {
             System.out.println("x must be 3");
@@ -28,7 +29,7 @@ class IfTest {
 }
 
 class IfTest2 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int x = 2;
         if (x == 3) {
             System.out.println("x must be 3");
