@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bfc03b2-cad8-410e-953c-885e5ecdb4de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HeadFirstJava/HeadFirstJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HeadFirstJava/HeadFirstJava.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bLSRWPeJVIg1o6K5JkBTknZr4O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonCrashCourse" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bfc03b2-cad8-410e-953c-885e5ecdb4de" name="Default Changelist" comment="" />
+      <created>1588409872071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588409872071</updated>
+      <workItem from="1588409878606" duration="73000" />
+      <workItem from="1588594822071" duration="777000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="117" key="FileChooserDialogImpl" timestamp="1588595972212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588595972212" />
+    <state x="56" y="0" key="new project wizard" timestamp="1588409945775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="56" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588409945775" />
+  </component>
+</project>
